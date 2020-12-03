@@ -2,8 +2,11 @@
 #define MAINWINDOW_H
 
 #include <QMainWindow>
-
+#include <QSortFilterProxyModel>
+#include <QTextTableFormat>
+#include <QStandardItemModel>
 QT_BEGIN_NAMESPACE
+
 namespace Ui { class MainWindow; }
 QT_END_NAMESPACE
 
